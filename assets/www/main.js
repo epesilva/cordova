@@ -41,7 +41,7 @@ var beep = function() {
 };
 
 var vibrate = function() {
-    navigator.notification.vibrate(0);
+    navigator.notification.vibrate(2000);
 };
 
 function roundNumber(num) {
