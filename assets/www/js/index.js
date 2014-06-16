@@ -51,16 +51,16 @@ var app = {
         console.log('Received Event: ' + id);
         
         
-        var vibrate = function() {
+        function vibrate() {
 	    navigator.notification.vibrate(2000);
 	};
 	
 	
-	var beep = function() {
+	function beep() {
 	    navigator.notification.beep(1);
 	};
 	
-	var alert = function() {
+	function alert() {
 	     navigator.notification.alert("Hello");
 	};
         
