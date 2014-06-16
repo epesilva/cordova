@@ -44,10 +44,25 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 		
-		navigator.notification.vibrate(1000);
+	    navigator.notification.vibrate(1000);
 	    navigator.notification.alert("Hello");
 	    navigator.notification.beep(1);
 
         console.log('Received Event: ' + id);
+        
+        
+        var vibrate = function() {
+	    navigator.notification.vibrate(2000);
+	};
+	
+	
+	var beep = function() {
+	    navigator.notification.beep(1);
+	};
+	
+	var alert = function() {
+	     navigator.notification.alert("Hello");
+	};
+        
     }
 };
