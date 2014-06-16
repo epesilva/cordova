@@ -52,7 +52,7 @@ var app = {
         
         
         function vibrate() {
-	    navigator.notification.vibrate(2000);
+	    navigator.notification.vibrate(1000);
 	};
 	
 	
