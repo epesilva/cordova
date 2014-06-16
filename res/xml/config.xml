@@ -48,7 +48,7 @@
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
     
-    <gap:plugin name="org.apache.cordova.core.vibration" />
+    <gap:plugin name="org.apache.cordova.vibration" version="0.3.7" />
     
     <feature name="Geolocation">
       <param name="android-package" value="org.apache.cordova.GeoBroker"/>
