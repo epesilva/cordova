@@ -43,7 +43,7 @@
       <preference name="InAppBrowserStorageEnabled" value="true" />
       <preference name="disallowOverscroll" value="true" />
     -->
-    
+    <gap:plugin name="org.apache.cordova.vibration" />
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
@@ -103,6 +103,6 @@
     </feature>
     <!-- Deprecated plugins element. Remove in 3.0 -->
     <plugins>
-      <gap:plugin name="org.apache.cordova.vibration" />
+      
     </plugins>
 </widget>
