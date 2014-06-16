@@ -51,18 +51,21 @@ var app = {
         console.log('Received Event: ' + id);
         
         
-        function vibrate() {
-	    navigator.notification.vibrate(1000);
-	};
-	
-	
-	function beep() {
-	    navigator.notification.beep(1);
-	};
-	
-	function alert() {
-	     navigator.notification.alert("Hello");
-	};
-        
     }
+};
+
+
+
+
+function vibrate() {
+    navigator.notification.vibrate(1000);
+};
+
+
+function beep() {
+    navigator.notification.beep(1);
+};
+
+function alert() {
+     navigator.notification.alert("Hello");
 };
