@@ -103,6 +103,6 @@
     </feature>
     <!-- Deprecated plugins element. Remove in 3.0 -->
     <plugins>
-     <gap:plugin name="org.apache.cordova.vibration" version="0.3.7" />
+     
     </plugins>
 </widget>
